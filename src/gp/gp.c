@@ -5,7 +5,7 @@
 #include "amdd.h"
 
 void gp(void) {
-    printf("  GlobalPlatform version %s\n", GP_VERSION);
+    printf("  GP version %s\n", GP_VERSION);
     // Run Amendment C functionalities
     amdc();
     
