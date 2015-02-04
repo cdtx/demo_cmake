@@ -1,0 +1,3 @@
+[submodule "externs/sugar"]
+	path = externs/sugar
+	url = https://github.com/ruslo/sugar.git

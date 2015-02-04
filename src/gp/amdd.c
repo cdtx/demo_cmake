@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "amdc.h"
+#include "amdd.h"
 
 
-void amdc(void) {
-    printf("- Amendment D\n");
+void amdd(void) {
+    printf("  - Amendment D\n");
 }
