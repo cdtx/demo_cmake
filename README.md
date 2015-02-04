@@ -7,3 +7,12 @@ Then I have decided to spend hours learning CMake.
 I have discovered *sugar* that's kinda plugin to deal with hierarchy of files all building the same executable. without listing all thoses files from the root project.
 
 Here is a sample project I have created to not loose my researches
+
+
+# How to use
+- Walk to your demo_cmake directory
+- Prefer creating a folder dedicated to building : > mkdir build
+- > cd build
+- cmake ..
+- make
+- enjoy !
