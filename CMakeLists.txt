@@ -18,5 +18,6 @@ target_link_libraries(test lib)
 # Post build 
 add_custom_command(TARGET test
     POST_BUILD
-    COMMAND cp test ../../liv/
+    COMMAND echo ${CMAKE_SOURCE_DIR}
+    COMMAND cp test${CMAKE_EXECUTABLE_SUFFIX} ${CMAKE_SOURCE_DIR}/liv
 )
