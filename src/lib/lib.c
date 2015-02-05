@@ -1,5 +1,6 @@
 #include <stdio.h>
+#include "lib.h"
 
-void flib(void) {
+DLL_EXPORT void flib(void) {
     printf("    Function called from library\n");
 }
